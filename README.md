@@ -22,7 +22,7 @@ WWNUGL+MSBM10                        Type 1C           Builtin          yes yes 
 ATPFCN+CMEX10                        Type 1C           Builtin          yes yes no      13  0
 ```
 
-# How it works
+# How to compile
 1. load the project into Overleaf
 2. select `latex` engine
 3. compile
