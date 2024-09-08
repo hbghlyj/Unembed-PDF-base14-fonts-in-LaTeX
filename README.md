@@ -1,3 +1,8 @@
+The PDF specification requires that a PDF viewer/printer/whatever must have the base 14 fonts embedded. Because of this, there is not need for an application to embed those fonts in a document.
+
+http://en.wikipedia.org/wiki/Portable_Document_Format#Standard_Type_1_Fonts
+
+
 # Unembed PDF base14 fonts in LaTeX
 Benefit:
 1. Reduce file size.
