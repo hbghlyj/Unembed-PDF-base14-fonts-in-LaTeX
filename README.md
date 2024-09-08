@@ -32,7 +32,7 @@ As you can see from the table, PDF base14 fonts (including Times, Courier, Symbo
 <br>
 <br>
 <br>
-<br>
+
 # How to compile
 1. load the project into Overleaf
 2. select `latex` engine
