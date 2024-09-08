@@ -1,0 +1,1 @@
+END { system ('dvipdfmx -f ./fontmap output.dvi'); }
