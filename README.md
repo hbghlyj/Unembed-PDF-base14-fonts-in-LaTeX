@@ -11,7 +11,7 @@ The PDF specification requires that a PDF viewer/printer/whatever must have the 
 
 But it works in [SumatraPDF](https://sumatrapdfreader.org/) and [Mozilla PDF.js](https://mozilla.github.io/pdf.js/) and Firefox and Chrome.
 
-I guess this is because the [symbol character set](https://learn.microsoft.com/en-us/windows/win32/gdi/character-sets-used-by-fonts#symbol-character-set).
+I guess this is because the [symbol character set](https://learn.microsoft.com/en-us/windows/win32/gdi/character-sets-used-by-fonts#symbol-character-set), also known as [259 – Symbols, Set 7](https://en.wikipedia.org/wiki/Code_page#EBCDIC-based_code_pages)
 <br>
 <br>
 <br>
