@@ -27,6 +27,4 @@ ATPFCN+CMEX10                        Type 1C           Builtin          yes yes 
 2. select `latex` engine
 3. compile
 ## Note
-Latexmk is used by Overleaf to control the compilation of your source LaTeX document into the final typeset PDF file. By using a customized configuration file called Latexmk you can override the default compilation commands to allow Overleaf to compile your document in a special way.
-
-In this project, after `latex` produces a `dvi` file, it will run dvipdfmx with the file `fontmap` as font map.
+Latexmk is used by Overleaf to control the compilation of your source LaTeX document into the final typeset PDF file. By using a customized configuration file called Latexmk you can override the default compilation commands to allow Overleaf to compile your document in a special way: In this project, first `latex` produces a `dvi` file, then `dvipdfmx` runs with the file `fontmap` as font map.
