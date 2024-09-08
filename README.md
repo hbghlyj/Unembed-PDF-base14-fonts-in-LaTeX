@@ -1,7 +1,7 @@
 # Unembed PDF base14 fonts in LaTeX
 Benefit:
 1. reduce font size (The output PDF is only 13.4 KB in this project).
-2. make the text editable in PDF editors (Adobe Acrobat can recognize base14 fonts, so can edit most of texts without changing font).
+2. make the text editable in PDF editors (Adobe Acrobat can recognize base14 fonts, so can edit most of texts without switching to a different font).
 
 ⚠️Danger: `\sum` in Symbola font only works in Mozilla PDF.js and does not work in other viewer
 
