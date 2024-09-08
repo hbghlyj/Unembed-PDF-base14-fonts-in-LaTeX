@@ -8,8 +8,12 @@ The PDF specification requires that a PDF viewer/printer/whatever must have the 
 
 ## ⚠️Danger
 `\sum` in Symbola font only works in [SumatraPDF](https://sumatrapdfreader.org/) and [Mozilla PDF.js](https://mozilla.github.io/pdf.js/) and Firefox and Chrome and does not work in other viewers including MS Edge and Adobe Acrobat.
+<br>
+<br>
+<br>
+<br>
 
-# `pdffonts` output
+## `pdffonts` output
 As you can see from the table, PDF base14 fonts (including Times, Courier, Symbol) are not embedded.
 
 |name                                |type             |encoding        |emb|sub|uni|object|ID
@@ -25,6 +29,10 @@ As you can see from the table, PDF base14 fonts (including Times, Courier, Symbo
 |WWNUGL+MSBM10                       |Type 1C          |Builtin         |yes|yes|yes|    12| 0
 |ATPFCN+CMEX10                       |Type 1C          |Builtin         |yes|yes|no |    13| 0
 
+<br>
+<br>
+<br>
+<br>
 # How to compile
 1. load the project into Overleaf
 2. select `latex` engine
