@@ -7,7 +7,8 @@ The PDF specification requires that a PDF viewer/printer/whatever must have the 
 2. Make the text editable in PDF editors (Adobe Acrobat can recognize base14 fonts, so can edit most of texts without switching to a different font).
 
 ## ⚠️Danger
-`\sum` in Symbola font only works in [SumatraPDF](https://sumatrapdfreader.org/) and [Mozilla PDF.js](https://mozilla.github.io/pdf.js/) and Firefox and Chrome and does not work in other viewers including MS Edge and Adobe Acrobat.
+`\sum` in Symbola font **does not work** in viewers including MS Edge and Adobe Acrobat.<br>
+It works in [SumatraPDF](https://sumatrapdfreader.org/) and [Mozilla PDF.js](https://mozilla.github.io/pdf.js/) and Firefox and Chrome.
 <br>
 <br>
 <br>
