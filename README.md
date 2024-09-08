@@ -14,7 +14,7 @@ The PDF specification requires that a PDF viewer/printer/whatever must have the 
 <br>
 
 ## `pdffonts` output
-As you can see from the table, PDF base14 fonts (including Times, Courier, Symbol) are not embedded.
+As you can see from the `emb` column, PDF base14 fonts (including Times, Courier, Symbol) are not embedded.
 
 |name                                |type             |encoding        |emb|sub|uni|object|ID
 |------------------------------------|-----------------|----------------|---|---|---|------|--
