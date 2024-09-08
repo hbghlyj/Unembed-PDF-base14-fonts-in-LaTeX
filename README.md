@@ -12,20 +12,19 @@ Benefit:
 
 # `pdffonts` output
 As you can see from the table, PDF base14 fonts (including Times, Courier, Symbol) are not embedded.
-```
-name                                 type              encoding         emb sub uni object ID
------------------------------------- ----------------- ---------------- --- --- --- ---------
-Times-Roman                          Type 1            Custom           no  no  yes      4  0
-Times-Italic                         Type 1            Custom           no  no  yes      5  0
-Courier                              Type 1            Custom           no  no  yes      6  0
-Times-Bold                           Type 1            Custom           no  no  yes      7  0
-Symbol                               Type 1            Custom           no  no  yes      8  0
-YEELVS+CMSY10                        Type 1C           Builtin          yes yes yes      9  0
-SEBDKK+CMMI10                        Type 1C           Builtin          yes yes yes     10  0
-OKFTUL+rsfs10                        Type 1C           Builtin          yes yes yes     11  0
-WWNUGL+MSBM10                        Type 1C           Builtin          yes yes yes     12  0
-ATPFCN+CMEX10                        Type 1C           Builtin          yes yes no      13  0
-```
+
+|name                                |type             |encoding        |emb|sub|uni|object|ID
+|------------------------------------|-----------------|----------------|---|---|---|------|--
+|Times-Roman                         |Type 1           |Custom          |no |no |yes|     4| 0
+|Times-Italic                        |Type 1           |Custom          |no |no |yes|     5| 0
+|Courier                             |Type 1           |Custom          |no |no |yes|     6| 0
+|Times-Bold                          |Type 1           |Custom          |no |no |yes|     7| 0
+|Symbol                              |Type 1           |Custom          |no |no |yes|     8| 0
+|YEELVS+CMSY10                       |Type 1C          |Builtin         |yes|yes|yes|     9| 0
+|SEBDKK+CMMI10                       |Type 1C          |Builtin         |yes|yes|yes|    10| 0
+|OKFTUL+rsfs10                       |Type 1C          |Builtin         |yes|yes|yes|    11| 0
+|WWNUGL+MSBM10                       |Type 1C          |Builtin         |yes|yes|yes|    12| 0
+|ATPFCN+CMEX10                       |Type 1C          |Builtin         |yes|yes|no |    13| 0
 
 # How to compile
 1. load the project into Overleaf
