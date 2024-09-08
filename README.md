@@ -1,7 +1,7 @@
 # Unembed PDF base14 fonts in LaTeX
 Benefit:
-1. reduce file size (The output PDF is only **13.4 KB** in this project).
-2. make the text editable in PDF editors (Adobe Acrobat can recognize base14 fonts, so can edit most of texts without switching to a different font).
+1. Reduce file size.
+2. Make the text editable in PDF editors (Adobe Acrobat can recognize base14 fonts, so can edit most of texts without switching to a different font).
 
 ⚠️Danger: `\sum` in Symbola font only works in Mozilla PDF.js and does not work in other viewer
 
@@ -28,3 +28,11 @@ ATPFCN+CMEX10                        Type 1C           Builtin          yes yes 
 3. compile
 ## Note
 Latexmk is used by Overleaf to control the compilation of your source LaTeX document into the final typeset PDF file. By using a customized configuration file called Latexmk you can override the default compilation commands to allow Overleaf to compile your document in a special way: In this project, first `latex` produces a `dvi` file, then `dvipdfmx` runs with the file `fontmap` as font map.
+
+# File size comparison
+
+| | size |
+|--|--|
+| original PDF | 102 KB|
+| output PDF | 13.4 KB|
+Note: The original PDF is compiled by pdflatex (with default font map) and without `mathastext` package.
