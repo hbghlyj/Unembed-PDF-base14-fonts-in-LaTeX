@@ -36,4 +36,4 @@ Latexmk is used by Overleaf to control the compilation of your source LaTeX docu
 | original | 102 KB|
 | processed | 13.4 KB|
 
-Note: The original PDF is compiled by pdflatex (with default font map) and without `mathastext` package.
+Differences: The original PDF is compiled by `pdflatex` engine (with default font map) and without `mathastext` package.
