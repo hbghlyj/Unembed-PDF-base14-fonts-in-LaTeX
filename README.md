@@ -1,14 +1,15 @@
+# Unembed PDF base14 fonts in LaTeX
+## Background
 The PDF specification requires that a PDF viewer/printer/whatever must have the base 14 fonts embedded. Because of this, there is not need for an application to embed those fonts in a document.
 
 http://en.wikipedia.org/wiki/Portable_Document_Format#Standard_Type_1_Fonts
 
-
-# Unembed PDF base14 fonts in LaTeX
-Benefit:
+## 🌟Benefit
 1. Reduce file size.
 2. Make the text editable in PDF editors (Adobe Acrobat can recognize base14 fonts, so can edit most of texts without switching to a different font).
 
-⚠️Danger: `\sum` in Symbola font only works in [SumatraPDF](https://sumatrapdfreader.org/) and [Mozilla PDF.js](https://mozilla.github.io/pdf.js/) and Firefox and Chrome and does not work in other viewers including MS Edge and Adobe Acrobat.
+## ⚠️Danger
+`\sum` in Symbola font only works in [SumatraPDF](https://sumatrapdfreader.org/) and [Mozilla PDF.js](https://mozilla.github.io/pdf.js/) and Firefox and Chrome and does not work in other viewers including MS Edge and Adobe Acrobat.
 
 # `pdffonts` output
 As you can see from the table, PDF base14 fonts (including Times, Courier, Symbol) are not embedded.
